@@ -37,7 +37,7 @@
             "description": "Mario's brother would do anything to help him on his journeys.",
             "price": 40,
             "author_id": 3,
-            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/luigi.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/luigi.jpg"
         },
         {
             "id": 3,
@@ -45,7 +45,7 @@
             "description": "Yoshi is Mario's trusty companion. He licks, flaps and dingles his feet, all to be by Mario's side",
             "price": 30,
             "author_id": 2,
-            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/yoshi.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/yoshi.jpg"
         },
         {
             "id": 4,
@@ -53,7 +53,7 @@
             "description": "-Me iS BiG anD StrOng muShROOm. ME wILl sToMP MArIo.",
             "price": 25,
             "author_id": 1,
-            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/goomba.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/goomba.jpg"
         },
         {
             "id": 5,
@@ -61,7 +61,7 @@
             "description": "Mario's sworn enemy is back again. Get'em!",
             "price": 50,
             "author_id": 3,
-            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/bowser.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/bowser.jpg"
         },
         {
             "id": 6,
