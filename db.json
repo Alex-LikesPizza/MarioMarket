@@ -25,49 +25,49 @@
     "products": [
         {
             "id": 1,
-            "name": "LED display",
-            "description": "Can display 2-lines X 16-characters. Operate with 5V DC.",
-            "price": 92,
+            "name": "Mario Plushie",
+            "description": "The mighty plummer is back again to save the princess from his fearsome enemy - Bowser,",
+            "price": 40,
             "author_id": 1,
-            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/led.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/mario.jpeg"
         },
         {
             "id": 2,
-            "name": "Arduino UNO",
-            "description": "Brand new and high quality.",
-            "price": 180,
+            "name": "Luigi Plushie",
+            "description": "Mario's brother would do anything to help him on his journeys.",
+            "price": 40,
             "author_id": 3,
-            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/arduino.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/luigi.jpeg"
         },
         {
             "id": 3,
-            "name": "ESP8266 5V",
-            "description": "This wireless relay is based on the AI-Thinker ESP-01S WIFI module.",
-            "price": 300,
+            "name": "Yoshi Plushie",
+            "description": "Yoshi is Mario's trusty companion. He licks, flaps and dingles his feet, all to be by Mario's side",
+            "price": 30,
             "author_id": 2,
-            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/wifi.jpeg"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/yoshi.jpeg"
         },
         {
             "id": 4,
-            "name": "RGB",
-            "description": "Can make color party.",
-            "price": 92,
+            "name": "Goomba Plushie",
+            "description": "-Me iS BiG anD StrOng muShROOm. ME wILl sToMP MArIo.",
+            "price": 25,
             "author_id": 1,
-            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/rgb.png"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/goomba.jpeg"
         },
         {
             "id": 5,
-            "name": "Resistor 10k Ohm",
-            "description": "Can resist the voltage. Super cool.",
-            "price": 180,
+            "name": "Bowser Plushie",
+            "description": "Mario's sworn enemy is back again. Get'em!",
+            "price": 50,
             "author_id": 3,
-            "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/resistor.png"
+            "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/bowser.jpeg"
         },
         {
             "id": 6,
-            "name": "7-Segment Display",
-            "description": "Epic.",
-            "price": 300,
+            "name": "Princess Peach Plushie",
+            "description": "Princess peach lived peacefully among her mushroom friends, until she stumbled upon the evil Bowser",
+            "price": 55,
             "author_id": 2,
             "photo_url": "https://raw.githubusercontent.com/RobocodeSchool/marketplace/main/img/7-seg.jpg"
         }
