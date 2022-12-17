@@ -1,3 +1,7 @@
+*{
+    user-select: none;
+    font-family: 'Courier New', Courier, monospace;
+}
 header, main{
     margin:5vh 10vw;
 }
@@ -20,4 +24,97 @@ header{
 #cart-button:hover{
     transition: 0.3s;
     background-color:rgb(255, 145, 0);
+}
+.product-name{
+    font-family: monospace;
+    font-weight: bolder;
+
+}
+.product-photo{
+    width: 200px;
+    max-height: 300px;
+}
+.product-button{
+    background-color: rgb(100, 100, 100);
+    border: none;
+    color:white;
+    font-size: x-large;
+    padding: 10px 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.product-button:hover{
+    background-color: rgb(134, 134, 134);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 7px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    margin: 50px;
+    transition: 0.5s;
+    padding: 10px;
+    height: 550px;
+}
+.product:hover{
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+#products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+@media screen and (max-width: 1000px) {
+    #products {
+      grid-template-columns: 1fr;
+    }
+}
+.hide{
+    display: none; 
+}
+.basket-img{
+    height: 100px;
+}
+#cart-products{
+    position: absolute;
+    background-color: white;
+    right:30px;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius:20px;
+    text-align: center;
+    margin-top:10px;
+    
+}
+#cart-button.active {
+    background-color: rgb(211, 95, 28);
+}
+
+#cart-products::before {
+    content: '';
+    border: transparent solid 16px;
+    border-bottom: solid #000 16px;
+    position: relative;
+    top: -2.7rem;
+    left: 15.8rem;
+    z-index: -1;
+}
+#cart-products>button{
+    background-color:gray;
+    color:white;
+    border:0;
+    transition: 0.3s;
+    font-size: x-large;
+    padding:5px;
+}
+#cart-products>button:hover{
+    background-color:rgb(201, 201, 201);
+    color:black;
+}
+#cart-products>p{
+    margin: 0 20px;
 }
