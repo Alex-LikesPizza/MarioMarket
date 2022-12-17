@@ -66,7 +66,7 @@
         {
             "id": 6,
             "name": "Princess Peach Plushie",
-            "description": "Princess peach lived peacefully among her mushroom friends, until she stumbled upon the evil Bowser",
+            "description": "Princess peach lives peacefully among her mushroom friends.",
             "price": 55,
             "author_id": 2,
             "photo_url": "https://raw.githubusercontent.com/Alex-LikesPizza/MarioMarket/main/Images/peach.jpg"
