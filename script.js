@@ -52,31 +52,18 @@ function addProductToCart(id){
 }
 function drawCart(){
     if(cart.length === 0)
-    return cartProd.innerHTML = 'Cart is empty.';
+    return cartProd.innerHTML = 'Cart is empty';
     cartProd.innerHTML = null;
     let sum = 0;
 
     cart.forEach(function(p){
         cartProd.innerHTML +=`
-        <p><img class="basket-img" src="${p.photo_url}">${p.name} | $${p.price}</p><hr>` + drawCanvas();
+        <p><img class="basket-img" src="${p.photo_url}">${p.name} | $${p.price}</p><hr>`;
         sum += p.price;
     });
     cartProd.innerHTML += `
     <p>Total price: $${sum}</p>
     <button onclick="buyAll()">Buy All</button>`;
-}
-function drawCanvas(){
-    const canvas = document.createElement("canvas");
-    canvas.style.width = "50px";
-    canvas.style.height = "50px";
-
-    const ctx = canvas.getContext("2d");
-    ctx.lineTo(50,50);
-    ctx.moveTo(50,0);
-    ctx.lineTo(0,50);
-    ctx.strokeStyle = "gray";
-    ctx.stroke();
-    return canvas;
 }
 function buyAll(){
     cart = [];
