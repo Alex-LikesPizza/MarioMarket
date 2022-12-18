@@ -5,21 +5,24 @@
             "name": "Spidey",
             "sirname": "Mano",
             "photo_url": "https://pbs.twimg.com/profile_images/1222646977332174849/xWcD6t_Q_400x400.jpg",
-            "balance": 1500
+            "balance": 1500,
+            "description": "I love Plushies, I love Mario games, why not combine them and create beautiful pieces of art?"
         },
         {
             "id": 2,
             "name": "Baty",
             "sirname": "Man",
             "photo_url": "https://avatarfiles.alphacoders.com/284/284739.png",
-            "balance": 5790
+            "balance": 5790,
+            "description": "No matter what, evil will always be with us!"
         },
         {
             "id": 3,
             "name": "Cat",
             "sirname": "Guy",
             "photo_url": "https://news.artnet.com/app/news-upload/2015/08/cats-galore04-e1440608914811.jpg",
-            "balance": 0
+            "balance": 0,
+            "description": "I absolutely love goofy stuff. While designing these plushies, i put my heart and soul into them."
         }
     ],
     "products": [
